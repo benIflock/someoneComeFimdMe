@@ -51,8 +51,7 @@ void setup()
   // Start GSM connection
   while (notConnected)
   {
-    if (gsmAccess.begin(PINNUMBER) == GSM_READY)                                                                                     '
-    
+    if (gsmAccess.begin(PINNUMBER) == GSM_READY)
       notConnected = false;
     else
     {
